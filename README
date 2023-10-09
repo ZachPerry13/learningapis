@@ -1,0 +1,7 @@
+sudo docker build -t api .
+sudo docker run -p 80:5000 api
+sudo docker run -p 81:5000 api
+
+docker ps -a
+
+http://127.17.0.2:5000
