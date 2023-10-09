@@ -3,5 +3,6 @@ sudo docker run -p 80:5000 api
 sudo docker run -p 81:5000 api
 
 docker ps -a
+docker system prune -af
 
 http://127.17.0.2:5000
